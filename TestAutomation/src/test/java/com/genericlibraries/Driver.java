@@ -34,7 +34,8 @@ public class Driver {
 			System.out.println("Internet Explorer Browser is Lunched");
 		} else {
 			System.setProperty("webdriver.chrome.driver", "src/test/resources/BrowserFiles/chromedriver.exe");
-			System.out.println("Default Chrome Browser is Lunched");
+			System.out.print("Default Chrome Browser is Lunched");
+			System.out.println("sucessfully");
 		}
 		getDriver().manage().window().maximize();
 		getDriver().get(url);
